@@ -10,12 +10,11 @@
 
 [https://raretrx.pro](https://raretrx.pro)
 
-上面这个网站，当你在复制私钥的时候，网站会将你复制的私钥加密，然后上传到后台服务：
+上面这个网站，当你在复制私钥的时候，网站会将你复制的私钥加密上传保存：
 
-<img width="100%" src="https://github.com/GG4mida/tronpretty/blob/main/screenshot/1.png?raw=true"/>
+<img width="100%" src="https://github.com/NiceTron/WebGenerateAddress/blob/main/screenshot/1.png?raw=true"/>
 
 缺乏技术知识的人根本无法识别类似服务是否可以满足自己的安全诉求。
-
 
 ### 这个呢？
 
@@ -84,8 +83,8 @@
 async function generateAccount() {
   if (tronWeb === null) {
     tronWeb = new TronWeb({
-      fullNode: 'http://15.207.144.3:8090',
-      solidityNode: 'http://15.207.144.3:8091',
+      fullNode: "http://15.207.144.3:8090",
+      solidityNode: "http://15.207.144.3:8091",
     });
   }
   return tronWeb.createAccount();
@@ -94,6 +93,6 @@ async function generateAccount() {
 
 > 详情可参考：`/public/js/worker.js`
 
-### 有问题咨询？
+### 还有问题？
 
 - telegram: https://t.me/trxDiZhi
