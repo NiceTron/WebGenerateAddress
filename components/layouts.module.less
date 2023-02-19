@@ -1,0 +1,94 @@
+.app {
+  height: 100vh;
+  min-height: 100vh;
+
+  .logo {
+    text-align: center;
+    padding: 24px 0;
+    display: block;
+    text-decoration: none;
+    img {
+      width: 36px;
+      height: 36px;
+    }
+  }
+
+  .main {
+    height: 100vh;
+    min-height: 100vh;
+
+    .menu_trigger {
+      font-size: 18px;
+      line-height: 64px;
+      cursor: pointer;
+      transition: color 0.3s;
+
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+
+    .header {
+      background: #fff !important;
+      position: sticky;
+      top: 0px;
+      z-index: 999;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 24px !important;
+
+      .right {
+        display: flex;
+        float: right;
+        height: 64px;
+        margin-left: auto;
+        overflow: hidden;
+        .action {
+          display: flex;
+          align-items: center;
+          height: 64px;
+          padding: 0 15px;
+          cursor: pointer;
+          transition: all 0.3s;
+          > span {
+            vertical-align: middle;
+          }
+          &:hover {
+            background: #f2f2f2;
+          }
+          &:global(.opened) {
+            background: #f2f2f2;
+          }
+        }
+        .account {
+          .avatar {
+            margin-right: 8px;
+            color: @primary-color;
+            vertical-align: top;
+            background: rgba(255, 255, 255, 0.85);
+          }
+        }
+      }
+
+      .dark {
+        .action {
+          &:hover {
+            background: #252a3d;
+          }
+          &:global(.opened) {
+            background: #252a3d;
+          }
+        }
+      }
+    }
+
+    .content {
+      height: 100%;
+      overflow: auto;
+      background: #f5f5f5;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+}
+
+.wrapper {
+  background-color: #fff;
+  margin: 24px;
+  padding: 24px;
+}
+
+.font-monospace {
+  font-family: monospace;
+}
+
+.mt {
+  margin-top: 24px;
+}
+
+.mb {
+  margin-bottom: 24px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
