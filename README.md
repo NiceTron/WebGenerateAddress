@@ -4,11 +4,11 @@
 
 主要依赖于 `tronweb` 的 `createAccount` 方法。
 
-> 本工具仅做技术讨论及交流。
+> 本工具仅做技术讨论及交流
 
 ### 为啥我要写一个？
 
-现在市面的生成服务，无法放心使用，要么打包成离线软件，要么在背后偷偷上传私钥
+现在市面的生成服务，无法放心使用，要么直接 exe 病毒风险，要么私自上传私钥
 
 举个例子：
 [https://raretrx.pro](https://raretrx.pro)
@@ -21,8 +21,7 @@
 
 ### 那咱这个呢？
 
-`TrxAddress` 是支持离线生成靓号方案。
-建议你下载源码，先进行代码审计，然后运行该工具。
+`WebGenerateAddress` 是支持离线生成靓号方案。建议你下载源码，先进行代码审计，然后运行该工具。
 
 关于 `tronweb`，请参阅波场官方文档：[波场官方文档](https://cn.developers.tron.network/reference/tronweb-object)
 
