@@ -32,3 +32,4 @@ yarn-error.log*
 
 # dbg
 /components/dbg.js
+/debug/
