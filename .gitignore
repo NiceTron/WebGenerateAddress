@@ -30,5 +30,5 @@ yarn-error.log*
 .env.production.local
 
 
-# antiDubugger
-/components/antiDubugger.js
+# dbg
+/components/dbg.js
