@@ -1,5 +1,7 @@
 ## 漂亮 TRX 地址生成器
 
+[https://trxaddr.gw.to/](在线测试)
+
 基于**自己手机或电脑**自助产号
 
 主要依赖于 `tronweb` 的 `createAccount` 方法。
