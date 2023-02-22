@@ -1,6 +1,6 @@
 ## 漂亮 TRX 地址生成器
 
-[https://trxaddr.gw.to/](在线测试)
+[在线测试](https://trxaddr.gw.to/)
 
 基于**自己手机或电脑**自助产号
 
